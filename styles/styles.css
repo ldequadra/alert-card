@@ -1,7 +1,6 @@
 :root {
     --clr-background: #FFFFFF;
 
-
     --clr-card-base: #FFFFFF;
     --clr-card-hover: #F8F8F8;
     --clr-button-base: #0052CC;
@@ -23,7 +22,6 @@
     --bsw-card: 0px 2px 8px 1px rgba(0, 0, 0, 0.2);
 
     --tr-hover: all ease 0.2s;
-
 }
 
 * {
@@ -99,6 +97,11 @@ button:hover {
     flex-direction: row;
     border-radius: var(--br-card);
     box-shadow: var(--bsw-card);
+    transition: var(--tr-hover);
+}
+
+.container:hover {
+    background-color: var(--clr-card-hover);
 }
 
 #container-success {

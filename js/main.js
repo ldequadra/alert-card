@@ -7,7 +7,6 @@ const successCard = document.getElementById('container-success');
 const dangerCard = document.getElementById('container-danger');
 
 
-
 closeButtonSuccess.addEventListener('click', function () {
     successCard.classList.add('display-none');
 })
