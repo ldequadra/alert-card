@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f00399ffb8.js" crossorigin="anonymous"></script>
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/styles/styles.css">
+    
+    <title>Alert Card - ldequadra</title>
+  </head>
+  <body>
+    
+    <div class="main-container">
+        <h1>Alert Card</h1>
+        <button id="button" type="button">Click me</button>
+        <a target="_blank" href="https://ldequadra.tech">ldequadra.tech</a>
+    </div>
+
+    <!-- Success -->
+
+    <div id="container-success" class="container display-none">
+        <div class="color success"></div>
+        <div class="infos">
+            <div class="header">
+                <div class="status-wrapper-success">
+                    <i class="fa-solid fa-check"></i>
+                    <!-- <i class="fa-solid fa-exclamation"></i> -->
+                </div>
+                <div id="close-button-success" class="close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="text">
+                <span class="title">Your order has been confirmed!</span>
+                <span class="subtitle">Check your email inbox</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Danger -->
+
+    <div id="container-danger" class="container display-none">
+        <div class="color danger"></div>
+        <div class="infos">
+            <div class="header">
+                <div class="status-wrapper-danger">
+                    <!-- <i class="fa-solid fa-check"></i> -->
+                    <i class="fa-solid fa-exclamation"></i>
+                </div>
+                <div id="close-button-danger" class="close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="text">
+                <span class="title">Oops, there's an error!</span>
+                <span class="subtitle">Check your information again</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
